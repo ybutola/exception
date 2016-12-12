@@ -1,0 +1,12 @@
+/.idea
+*.iml
+target/
+.ignore
+.jar
+
+# ------------- #
+# Mac specific  #
+# ------------- #
+.DS_Store
+
+config.properties
