@@ -1,0 +1,12 @@
+create database logs;
+
+create table logexception (
+                       logID int,
+                       application varchar(30),
+                       logType varchar(255),
+                       logLevel varchar(255),
+                       message varchar(255),
+                       stackTrace varchar(255),
+                       cause varchar(255),
+                       logDate date
+                       );
