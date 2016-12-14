@@ -8,7 +8,7 @@ import java.util.Date;
 
 @Entity
 public class LogExcpetion {
-    protected LogExcpetion() {
+    public LogExcpetion() {
     }
 
     @Id
